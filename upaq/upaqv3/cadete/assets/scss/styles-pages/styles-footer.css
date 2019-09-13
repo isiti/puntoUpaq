@@ -1,0 +1,12 @@
+@import url(c:\wamp64\www\clientes\upaq2\upaqv3\cadete\assets\scss\plugins\animate.css);
+#footer-bottom {
+  background: #181528;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+#footer-bottom span {
+  color: #fff;
+}
+/*# sourceMappingURL=styles-footer.css.map */

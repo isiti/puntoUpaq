@@ -1,0 +1,449 @@
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta charset="UTF-8">
+	<script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+	<script
+			  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+			  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+			  crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="row">
+				<div class="logo col-6 col-md-4">
+					<img src="assets/img/logotipo_03.png">
+				</div>
+				<div class="nav-wrapper col-md-8 d-none d-sm-none d-md-block d-lg-block">
+					<ul class="main-nav">
+						<li class="active"><a href="index.html">Inicio</a></li>
+						<li><a href="#nuestrosServicios">Nuestros Servicios</a></li>
+						<li><a href="#xqElegirnos">Por qué elegirnos</a></li>
+						<li><a href="#precios">Precios</a></li>
+						<li><a href="#empresas">Empresas</a></li>
+						<li><a href="#contacto">Contacto</a></li>
+						<li><a href="./cadete/index.php">Cadetes</a></li>
+					</ul>
+				</div>
+				<div class="nav-wrapper text-right col-6 col-md-8 d-block d-sm-block d-md-none d-lg-none">
+					<a href="" class="bars-menu menu-button"><i class="fa fa-bars"></i></a>
+				</div>
+				<ul class="flexnav d-block d-sm-block d-md-none d-lg-none"> 
+					<li class="active"><a href="">Inicio</a></li>
+						<li><a href="#nuestrosServicios">Nuestros Servicios</a></li>
+						<li><a href="#xqElegirnos">Por qué elegirnos</a></li>
+						<li><a href="#precios">Precios</a></li>
+						<li><a href="#empresas">Empresas</a></li>
+						<li><a href="#contacto">Contacto</a></li>
+						<li><a href="./cadete/index.php">Cadetes</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<section class="hero" style="background-image: url(assets/img/slider_07.png); height: auto; width: 100%;">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-xs-12 col-md-12 col-lg-6 offset-lg-3">
+
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-xs-12">
+							<a class="link-btn-send" href="./cliente/index.php"><div class="btn-send"><h2>Enviar un paquete</h2></div></a>
+						</div>
+					</div>
+
+				
+					<!-- <form>
+						<div class="row">
+							<div class="form-group col-12 col-md-12 after-car">
+								<i class="fa fa-car absolute"></i>
+								<select class="select-f after-car" placeholder="Seleccione el tipo de envío">
+									<option value="">Seleccione el tipo de envío2</option>
+								</select>
+							</div>
+						</div>
+						<div class="row">
+							<div class="form-group col-md-12">
+								<label>DESDE</label>
+							</div>
+							<div class="form-group col-4 col-md-4 after-map">
+								<i class="fa fa-map-marker absolute"></i>
+								<select class="select-n " placeholder="Localidad">
+									<option value="">Localidad2</option>
+								</select>
+							</div>
+							<div class="form-group col-4 col-md-4">
+								<input type="text" name="test" placeholder="Calle">
+							</div>
+							<div class="form-group col-2 col-md-2">
+								<input type="text" name="test" placeholder="Piso">
+							</div>
+							<div class="form-group col-2 col-md-2">
+								<input type="text" name="test" placeholder="Depto">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="form-group col-12 col-md-12">
+								<label>HASTA</label>
+							</div>
+							<div class="form-group col-4 col-md-4 after-map">
+								<i class="fa fa-map-marker absolute"></i>
+								<select class="select-n after-map" placeholder="Localidad">
+									<option value="">Localidad2</option>
+								</select>
+							</div>
+							<div class="form-group col-4 col-md-4">
+								<input type="text" name="test" placeholder="Calle">
+							</div>
+							<div class="form-group col-2 col-md-2">
+								<input type="text" name="test" placeholder="Piso">
+							</div>
+							<div class="form-group col-2 col-md-2">
+								<input type="text" name="test" placeholder="Depto">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="form-group col-12 col-md-12">
+								<label class="display-inline left">INFORMACIÓN DE CONTACTO</label>
+								<label class="display-inline right">COSTO</label>
+							</div>
+							<div class="form-group col-4 col-md-4">
+								<i class="fa fa-user absolute"></i>
+								<input type="text" name="test" class="after-user" placeholder="Nombre y Apellido">
+							</div>
+							<div class="form-group col-4 col-md-4">
+								<i class="fa fa-phone absolute"></i>
+								<input type="text" name="test" class="after-phone" placeholder="Telefono">
+							</div>
+							<div class="form-group col-2 col-md-2">
+							</div>
+							<div class="form-group col-2 col-md-2">
+								<input type="text" name="test" placeholder="Depto">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-12 col-md-12">
+								<button class="button btn btn-primary button-red button-hero">SOLICITAR ENVÍO</button>
+							</div>
+						</div>
+
+					</form> -->
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="empresas" class="intro-info">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h2>¿SOS UNA EMPRESA?</h2>
+					<p>
+						Descripción servicios para empresas.
+					</p>
+					<p>U PAQ es un gran directorio de servicios de gestiones, con una <b>tecnología exclusiva que permite ubicar al prestador</b> de servicios más cercano al usuario, y permitir su vinculación directa con el cliente.</p>
+					<p>
+						<button class="button btn btn-primary button-red main-button">SABER MÁS</button>
+					</p>
+				</div>
+				<div class="col-md-6">
+					<img src="assets/img/moto3_25.png">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="about-upaq" style="background-image: url(assets/img/personas_07.png);">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6 offset-md-6 col-lg-4 offset-lg-4 upaq-content">
+					<h2 class="text-center">¿Todavía no sabés <br> qué es u-paq?</h2>
+					<p>
+						Es la manera más rápida, segura y conveniente de solicitar servicios de cadetería, gestiones, envíos y minifletes.
+					</p>
+					<p>U PAQ es un gran directorio de servicios de gestiones, con una <b>tecnología exclusiva que permite ubicar al prestador</b> de servicios más cercano al usuario, y permitir su vinculación directa con el cliente.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="video-hero">
+		<img src="assets/img/video_09.png">
+	</section>
+
+	<section id="nuestrosServicios" class="our-services white">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 offset-md-4">
+					<h2 class="text-center">NUESTROS SERVICIOS</h2>
+					<img src="assets/img/cartero_13.png">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<h3>Trámites y gestiones</h3>
+					<p>A pie, en bicicleta o motos, nuestros servicios de cadetería permiten la realización de trámites, mandados, pagos, depósitos, retiros y entregas de documentación de la manera más rápida y sencilla. Según la distancia y tipo de gestión solicitada el sistema notifica automáticamente a los prestadores capacitados para la correcta realización del pedido.</p>
+				</div>
+				<div class="col-md-6">
+					<h3 class="text-center">PRECIO</h3>
+					<div class="table blue-table">
+						<table>
+							<thead class="thead-dark">
+								<tr>
+									<th scope="col">Distancia</th>
+									<th scope="col">Ida</th>
+									<th scope="col">Ida y Vuelta</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>< 1600m</th>
+									<td>$</td>
+									<td>$</td>
+								</tr>
+								<tr>
+									<td>> 1600m</th>
+									<td>$</td>
+									<td>$</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="precios" class="our-services blue">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 offset-md-4">
+					<img src="assets/img/moto2_17.png">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<h3>Envíos de paquetes</h3>
+					<p>En motos o camionetas, proveemos un contacto rápido con múltiples prestadores y vehículos adecuados para el transporte rápido de pequeñas cargas.</p>
+				</div>
+				<div class="col-md-6">
+					<div class="table blue-table">
+						<table>
+							<thead class="thead-dark">
+								<tr>
+									<th scope="col">Distancia</th>
+									<th scope="col">Ida</th>
+									<th scope="col">Ida y Vuelta</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>< 1600m</th>
+									<td>$</td>
+									<td>$</td>
+								</tr>
+								<tr>
+									<td>> 1600m</th>
+									<td>$</td>
+									<td>$</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="our-services white">
+		<div class="container">
+			
+			<div class="row">
+				<div class="col-md-4 offset-md-4">
+					<img src="assets/img/camion_21.png">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<h3>Minifletes</h3>
+					<p>Para envíos más allá de una moto, una flota de furgones urbanos
+						ofrece rápida disponibilidad para el traslado de cargas generales en
+						toda la ciudad.
+					</p>
+				</div>
+				<div class="col-md-6">
+					<h3 class="text-center">PRECIO</h3>
+					<div class="table blue-table">
+						<table>
+							<thead class="thead-dark">
+								<tr>
+									<th scope="col">Distancia</th>
+									<th scope="col">Ida</th>
+									<th scope="col">Ida y Vuelta</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>< 1600m</th>
+									<td>$</td>
+									<td>$</td>
+								</tr>
+								<tr>
+									<td>> 1600m</th>
+									<td>$</td>
+									<td>$</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="intro-info">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h2>¿SOS UNA EMPRESA?</h2>
+					<p>
+						Descripción servicios para empresas.
+					</p>
+					<p>U PAQ es un gran directorio de servicios de gestiones, con una <b>tecnología exclusiva que permite ubicar al prestador</b> de servicios más cercano al usuario, y permitir su vinculación directa con el cliente.</p>
+					<p>
+						<button class="button btn btn-primary button-red main-button">SABER MÁS</button>
+					</p>
+				</div>
+				<div class="col-md-6">
+					<img src="assets/img/moto_03.png">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="xqElegirnos" class="three-columns">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h2>
+						¿POR QUÉ SOMOS LOS MEJORES?<br>
+						VENTAJAS/ POR QUÉ ELEGIRNOS / EJES
+					</h2>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4 box">
+					<div class="image">
+						<img src="assets/img/prestadores_34.png">
+					</div>
+					<h3>Elección de prestadores</h3>
+					<p>U PAQ lo vincula con una red de prestadores calificados de servicios a través de un proceso de preselección que incluye los siguientes requisitos obligatorios:</p>
+					<ul class="no-bullets">
+						<li>Certificado de Antecedentes Penales</li>
+						<li>Libre de deuda de infracciones</li>
+						<li>Verificación de referencias laborales</li>
+						<li>Inscripción impositiva</li>
+					</ul>
+				</div>
+
+				<div class="col-md-4 box">
+					<div class="image">
+						<img src="assets/img/ubicacion_31.png">
+					</div>
+					<h3>Tecnología para la seguridad</h3>
+					<p>Información en todo momento. Usted puede conocer quien es el prestador que ha aceptado su viaje, aún antes de que llegue a su domicilio, informándose a través de la web o por email, así como el recorrido del envío con posterioridad al inicio del trámite.<br> Etiqueta de seguridad. Contiene la fotografía y el nombre del prestador, los datos de su vehículo, teléfono de contacto, numero telefónico de reclamos, y un código QR con número identificatorio que permite rastrear todo el tiempo el estado del envío desde su computadora o teléfono celular.</p>
+				</div>
+
+				<div class="col-md-4 box">
+					<div class="image">
+						<img src="assets/img/seguros_29.png">
+					</div>
+					<h3>Seguros</h3>
+					<p>Todos los prestadores que utilizan los servicios de U PAQ están obligados a contratar un triple seguro de accidentes personales, responsabilidad civil, y carga transportada, de los cuales U PAQ es beneficiario, asegurando su cobranza y cobertura de eventuales inconvenientes.</p>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div id="contacto" class="top-footer">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-12">
+						<h2>CONTACTANOS</h2>
+					</div>
+				</div>
+				<div class="row text-center">
+					<div class="col-md-12">
+						<ul>
+							<li><a href=""><i class="fa fa-facebook"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<i class="fa fa-map-marker"></i> Alem 876 - Bahía Blanca (8000)
+					</div>
+
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<h3>Solicitud de pedidos:</h3>
+						<p><i class="fa fa-phone"></i> 4595999 - Líneas Rotativas</p>
+					</div>
+					<div class="col-md-4">
+						<h3>Información y reclamos:</h3>
+						<p><i class="fa fa-envelope"></i> info@upaq.com.ar</p>
+					</div>
+					<div class="col-md-4">
+						<h3>Reclamos urgentes:</h3>
+						<p><i class="fa fa-phone"></i> *******</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<img src="assets/img/logo_footer.png">
+					</div>
+					<div class="col-md-9 nav-wrapper">
+						<ul>
+							<li><a href="">Inicio</a></li>
+							<li><a href="">Nuestros servicios</a></li>
+							<li><a href="">Por qué elegirnos</a></li>
+							<li><a href="">Precios</a></li>
+							<li><a href="">Empresas</a></li>
+							<li><a href="">Contacto</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/js/jquery.flexnav.min.js"></script>
+	<script type="text/javascript" src="assets/js/scripts.js"></script>
+</body>
+</html>

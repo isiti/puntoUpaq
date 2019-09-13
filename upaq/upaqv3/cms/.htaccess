@@ -1,0 +1,7 @@
+RewriteEngine on
+#RewriteBase / 
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+RewriteRule ^home$ index.php?go=home [QSA]
+RewriteRule ^logout$ index.php?logout=true [QSA]

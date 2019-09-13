@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACoBA,OAAO,CAAP,+EAAO;ADfP,AAAA,cAAc,CAAA;EACV,UAAU,ECFG,OAAO;EDGpB,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,KAAK;CAInB;;AARD,AAKI,cALU,CAKV,IAAI,CAAA;EACA,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "styles-footer.scss",
+        "../styles-global.scss"
+    ],
+    "names": [],
+    "file": "styles-footer.css"
+}

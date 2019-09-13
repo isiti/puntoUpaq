@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAKA,AAAA,cAAc,CAAA;EACV,MAAM,EAAE,UAAU;CACrB",
+    "sources": [
+        "styles-vue-basic-components.scss",
+        "../../styles-global.scss"
+    ],
+    "names": [],
+    "file": "styles-vue-basic-components.css"
+}

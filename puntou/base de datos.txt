@@ -1,0 +1,7 @@
+base de datos
+
+users : nombre de usuario, nombre completo, contraseña, mail, id_users_master is_driver
+addresses_saved : id id_users adress type
+travel_logs : id id_users id_dac date from_adress to_adress id_users_driver amount duration status (reservado,agendado,en_progreso,completado,cancelado), 
+reviews : id id_users (el que hace el review) review
+logs_signature : id id_users id_travel_logs url_signature

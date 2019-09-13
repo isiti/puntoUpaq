@@ -1,0 +1,71 @@
+.sin_iniciar {
+  color: #fff;
+  background: #c93636;
+}
+
+.aceptado {
+  color: #fff;
+  background: #7ad331;
+}
+
+.buscando {
+  color: #fff;
+  background: #3fc0e0;
+}
+
+.entregando {
+  color: #fff;
+  background: #e4d728;
+}
+
+.completado {
+  color: #fff;
+  background: #9538c0;
+}
+
+.btn-home {
+  width: 10em;
+  height: 10em;
+  margin: 0.5em;
+  padding: 0.5em;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  border-radius: 1em;
+  padding: 1em;
+  color: #fff;
+}
+
+.btn-home:hover {
+  background: #3169ae;
+  cursor: pointer;
+}
+
+.btn-home .btn-home-total {
+  font-size: 3em;
+}
+
+.user {
+  background: #eb454b;
+}
+
+.order {
+  background: #1d8cf8;
+}
+
+.dow {
+  background: red;
+}
+/*# sourceMappingURL=styles-BtnHome.css.map */

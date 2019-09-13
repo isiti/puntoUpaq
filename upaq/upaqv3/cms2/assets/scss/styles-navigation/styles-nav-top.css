@@ -1,0 +1,24 @@
+#nav-top nav {
+  z-index: 100;
+  background-color: #27293d;
+  border-bottom: 1px solid #ff5840;
+}
+
+#nav-top nav .dropdown-menu {
+  left: -92px;
+  top: 125%;
+}
+
+#nav-top nav .dropdown-menu a {
+  color: #1e1e2f;
+}
+
+#nav-top nav a {
+  color: #fff;
+}
+
+#nav-top nav a:hover {
+  color: #ff5840;
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles-nav-top.css.map */

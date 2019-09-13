@@ -1,0 +1,66 @@
+.sin_iniciar {
+  color: #fff;
+  background: #c93636;
+}
+
+.aceptado {
+  color: #fff;
+  background: #7ad331;
+}
+
+.buscando {
+  color: #fff;
+  background: #3fc0e0;
+}
+
+.entregando {
+  color: #fff;
+  background: #e4d728;
+}
+
+.completado {
+  color: #fff;
+  background: #9538c0;
+}
+
+#login .login-box {
+  width: 100%;
+  border: 1px solid #3169ae;
+  padding: 2em;
+  margin-top: 3em;
+  border-radius: 0.5em;
+  background: #27293d;
+  color: #fff;
+}
+
+#login .login-box .title-login {
+  margin-bottom: 2em;
+}
+
+#login .login-box .title-login img {
+  width: 20%;
+  float: right;
+}
+
+#login .login-box .btn-login {
+  text-align: center;
+}
+
+#login .login-box .btn-login button {
+  background-color: #3169ae;
+  color: #fff;
+  border-style: none;
+  border-radius: 0.5em;
+  padding: 0.5em 1.25em;
+  opacity: 1;
+}
+
+#login .login-box .btn-login button:hover {
+  opacity: 0.8;
+}
+
+#login .login-box .subtitle-login img {
+  width: 75%;
+  float: right;
+}
+/*# sourceMappingURL=styles-login.css.map */

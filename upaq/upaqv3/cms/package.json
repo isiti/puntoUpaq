@@ -1,0 +1,23 @@
+{
+  "name": "cms-braian",
+  "version": "1.0.0",
+  "description": "cms - nexosmart - vBraian",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel js/src-es6 -d js"
+  },
+  "keywords": [
+    "nexosmart"
+  ],
+  "author": "nexosmart & braian",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5"
+  }
+}

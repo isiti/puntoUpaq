@@ -1,0 +1,53 @@
+{
+    "short_name": "Twittor",
+    "name": "Twittor para héroes",
+    "start_url": "index.html",
+    "background_color": "#253d7a",
+    "theme_color": "#253d7a",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "assets/imgages/icon/logo_app.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "assets/imgages/icon/logo_app.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "assets/imgages/icon/logo_app.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "assets/imgages/icon/logo_app.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "assets/imgages/icon/logo_app.png",
+            "type": "image/png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "assets/imgages/icon/logo_app.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "assets/imgages/icon/logo_app.png",
+            "type": "image/png",
+            "sizes": "384x384"
+        },
+        {
+            "src": "assets/imgages/icon/logo_app.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+      ]
+
+
+}

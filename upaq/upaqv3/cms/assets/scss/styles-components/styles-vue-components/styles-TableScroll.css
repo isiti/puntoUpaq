@@ -1,0 +1,55 @@
+.sin_iniciar {
+  color: #fff;
+  background: #c93636;
+}
+
+.aceptado {
+  color: #fff;
+  background: #7ad331;
+}
+
+.buscando {
+  color: #fff;
+  background: #3fc0e0;
+}
+
+.entregando {
+  color: #fff;
+  background: #e4d728;
+}
+
+.completado {
+  color: #fff;
+  background: #9538c0;
+}
+
+.table_scroll table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.table_scroll table tbody {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  height: 5em;
+}
+
+.table_scroll table thead {
+  width: 100%;
+  color: #fff;
+  background: #3169ae;
+}
+
+.table_scroll table thead tr {
+  display: block;
+  width: 100%;
+}
+
+.table_scroll table thead tr th {
+  text-align: left;
+  font-weight: bold;
+  border-bottom: none !important;
+  border-top: none !important;
+}
+/*# sourceMappingURL=styles-TableScroll.css.map */

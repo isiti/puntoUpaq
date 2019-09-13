@@ -1,0 +1,14 @@
+@import url(c:\wamp64\www\clientes\upaq2\upaqv3\cadete\assets\scss\plugins\animate.css);
+.pedidos {
+  text-align: center;
+}
+
+.pedidos thead {
+  background: #253d7a;
+}
+
+.pedidos tbody tr:hover {
+  background: #ffed00;
+  color: #181528;
+}
+/*# sourceMappingURL=styles-pedidos.css.map */

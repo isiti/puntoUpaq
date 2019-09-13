@@ -1,0 +1,41 @@
+{
+    "short_name": "Upaq",
+    "name": "Upaq app para cadetes",
+    "start_url": "index.php",
+    "background_color": "#ff5840",
+    "theme_color": "#ff5840",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "assets/images/icon/android/l/ic_launcher-36x36.png",
+            "type": "image/png",
+            "sizes": "36x36"
+        },
+        {
+            "src": "assets/images/icon/android/m/ic_launcher-48x48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "assets/images/icon/android/h/ic_launcher-72x72.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "assets/images/icon/android/x/ic_launcher-96x96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "assets/images/icon/android/xx/ic_launcher-144x144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "assets/images/icon/android/xxx/ic_launcher-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+      ]
+}

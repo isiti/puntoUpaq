@@ -1,0 +1,44 @@
+// INFO: estilos de los modals de la app
+
+// importo estilos globales
+@import '../styles-global.scss';
+
+
+.btn-salir-registro,
+.btn-continuar-registro {
+  background-color: #ff5840;
+  color: #fff;
+  border-style: none;
+  border-radius: 0.5em;
+  padding: 0.5em 1.25em;
+  opacity: 1;
+}
+
+.btn-salir-registro:hover,
+.btn-continuar-registro:hover {
+  opacity: 0.8;
+}
+
+.modal-header {
+  background: #253d7a;
+  color: #fff;
+}
+
+// .modal-footer{
+//   background: #253d7a;
+//   color: #fff;
+// }
+
+.close {
+  text-shadow: none !important;
+  color: #fff !important;
+}
+
+.modal{
+    color: $color-oscuro-3;
+}
+
+#btn_registrar{
+  @include button($color-principal, #fff);
+  text-align: center;
+}

@@ -1,0 +1,111 @@
+* {
+  background: #181528;
+  width: 100%;
+  overflow: hidden;
+  color: #fff;
+  margin: 0em auto;
+  font-family: 'Abel';
+  font-weight: bold;
+}
+
+hr {
+  background: #fff;
+}
+
+.intro {
+  text-align: center;
+  margin: 4em auto;
+}
+
+.intro-box {
+  margin-bottom: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: 'Lato';
+  font-weight: 900;
+  color: #353535;
+  position: relative;
+}
+
+.text {
+  display: inline-block;
+  font-size: 10vmin;
+  line-height: 1.205;
+}
+
+.text__first, .text__second {
+  position: relative;
+}
+
+.text__word {
+  opacity: 0;
+}
+
+.text__first-bg, .text__second-bg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+}
+
+.text__first-bg {
+  background-color: #1d8cf8;
+}
+
+.text__second-bg {
+  background-color: #ff5840;
+}
+
+.text__second {
+  margin-left: 15vmin;
+}
+
+.ico-img {
+  width: 3em;
+}
+
+.text-img {
+  width: 60%;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.btns-intro {
+  width: 100%;
+}
+
+.btns-intro a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=styles-intro.css.map */

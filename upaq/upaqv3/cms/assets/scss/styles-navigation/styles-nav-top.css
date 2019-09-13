@@ -1,0 +1,49 @@
+.sin_iniciar {
+  color: #fff;
+  background: #c93636;
+}
+
+.aceptado {
+  color: #fff;
+  background: #7ad331;
+}
+
+.buscando {
+  color: #fff;
+  background: #3fc0e0;
+}
+
+.entregando {
+  color: #fff;
+  background: #e4d728;
+}
+
+.completado {
+  color: #fff;
+  background: #9538c0;
+}
+
+#nav-top nav {
+  z-index: 100;
+  background-color: #27293d;
+  border-bottom: 1px solid #3169ae;
+}
+
+#nav-top nav .dropdown-menu {
+  left: -92px;
+  top: 125%;
+}
+
+#nav-top nav .dropdown-menu a {
+  color: #1e1e2f;
+}
+
+#nav-top nav a {
+  color: #fff;
+}
+
+#nav-top nav a:hover {
+  color: #3169ae;
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles-nav-top.css.map */

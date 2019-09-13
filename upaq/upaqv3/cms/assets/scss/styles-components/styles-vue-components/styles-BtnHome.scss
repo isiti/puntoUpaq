@@ -1,0 +1,37 @@
+ 
+ // importo estilos globales.
+ @import '../../styles-global.scss';
+
+ .btn-home{
+     width: 10em;
+     height: 10em;
+     margin: 0.5em;
+     padding: 0.5em;
+     text-align: center;
+     @include flex(space-around, column, center, nowrap);
+     border-radius: 1em;
+     padding: 1em;     
+     color: #fff;
+     &:hover{
+        background: $color-principal;
+         cursor: pointer;
+     }
+
+     .btn-home-total{
+         font-size: 3em;
+     }
+    }
+
+    .user{
+        background: $color-secundario-1;
+    }
+
+    .order{
+        background: $color-secundario-2;
+    }
+
+    .dow{
+        background: red;
+    }
+         
+

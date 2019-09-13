@@ -1,0 +1,29 @@
+// ESTILOS DE LAS BARRA DE NAVEGACIÓN TOP Y LATERAL EN navigations/nav-top.php & side-nav.php
+
+// importo estilos globales.
+@import '../styles-global.scss';
+
+// navegación top.
+#nav-top{
+    nav{
+        z-index: 100;
+        background-color: $color-oscuro-2;  
+        border-bottom: 1px solid $color-principal;  
+        .dropdown-menu{
+            left: -92px;
+            top: 125%;
+            a{
+                color: $color-oscuro-1;
+            }
+        }
+        a{
+            color: #fff;
+            &:hover{
+                color: $color-principal;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+

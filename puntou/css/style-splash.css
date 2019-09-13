@@ -1,0 +1,264 @@
+progress,sub,sup{vertical-align:baseline}button,hr,input{overflow:visible}[type=checkbox],[type=radio],legend{box-sizing:border-box;padding:0}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}button,input,select,textarea{font:inherit;margin:0;-webkit-appearance: none;-webkit-border-radius: 0;}optgroup{font-weight:700}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{color:inherit;display:table;max-width:100%;white-space:normal}textarea{overflow:auto}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+
+*, *:before, *:after { box-sizing: border-box; }
+html { height: 100%; }
+body {
+	-webkit-touch-callout: none;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	text-size-adjust: none;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+	height: 100%;
+	width: 100%;
+
+	overflow: auto;
+
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	word-wrap: break-word;
+	font-size: 15px;
+	font-family: 'Dosis', sans-serif;
+	line-height: 20px;
+	text-rendering: optimizeLegibility;
+	-webkit-backface-visibility: hidden;
+	-webkit-user-drag: none;
+	-ms-content-zooming: none;
+
+	background: #262626 no-repeat fixed center center;
+}
+
+.hidden {
+	display: none;
+}
+
+a,
+a:hover,
+a:focus,
+a:active { text-decoration: none; color: inherit; }
+
+input, button { outline: none; }
+
+input {
+	padding: 10px 15px;
+	text-align: left;
+	border: 0;
+}
+button {
+	padding: 10px 15px;
+	border: 0;
+	text-align: center;
+	font-weight: 500;
+	font-size: 110%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.panel {
+	width: 85%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.login form input,
+.login form button {
+	width: 100%;
+}
+
+.login form button {
+	text-align: left;
+}
+
+.login form input {
+	margin-bottom: 15px;
+}
+
+.land .error {
+	width: 100%;
+	position: absolute;
+	display: none;
+	z-index: 2;
+	bottom: 0;
+	background: #fff;
+	font-weight: 600;
+	color: #383838;
+	font-size: 90%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-align: center;
+	padding: 15px 15px;
+}
+
+/* */
+
+.matchat-logo {
+	font-size: 40px;
+	color: #fff;
+	line-height: 1;
+	margin-bottom: 30px;
+}
+
+.welcome-message { font-size: 30px; }
+
+.sign-up-message {
+	margin-top: 10px;
+	font-size: 25px;
+	width: 200px;
+	line-height: 30px;
+}
+
+.login {
+	margin-top: 75px;
+}
+
+.login form input {
+	background: transparent;
+	font-size: 15px;
+	color: #fff;
+	width: 100%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 1px solid #fff;
+}
+
+.forgot {
+	margin-top: 5px;
+	margin-left: 180px;
+}
+
+#forgot{
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+	opacity: .6;
+    text-align: right;
+    display: block;
+}
+
+button.login-btn {
+	background-color: rgba(0,0,0,0);
+	border: none;
+	font: inherit;
+	color: #05a545;
+	font-size: 35px;
+	height: auto;
+	padding: 0;
+	margin-top: 30px;
+}
+
+.sign-up-btn {
+	margin-top: 60px;
+	font-size: 16px;
+}
+
+.sign-up-btn span {
+	opacity: .7;
+}
+
+.sign-up-btn a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/*Signup---------------------------------------------*/
+
+.title {
+	text-align: left;
+	font-size: 40px;
+	color: #fff;
+    height: 10%;
+}
+
+.content{
+    margin-top: 8%;
+}
+
+.field{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    height: 30px;
+    font-size: 15px;
+    color: #fff;
+    width: 100%;
+    margin-top: 2%;
+}
+
+::-webkit-input-placeholder { 
+    color:    #fff;
+    opacity: .7;
+}
+
+:-moz-placeholder { 
+   color:    #fff;
+    opacity: .7;
+}
+
+.register button{
+    background-color: transparent;
+    border: none;
+    font: inherit;
+    color: #05a545;
+    font-size: 35px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+select{
+    border: none;
+    border-bottom: 1px solid white;
+    background: #262626;
+    height: 30px;
+    font-size: 15px;
+    color: #fff;
+    width: 100%;
+    font: inherit;
+    font-size: 18px;
+    opacity: .7;
+}
+
+input{
+    font: inherit;
+    font-size: 18px;
+    background: transparent;
+    color: #ffffff;
+    padding: 0px;
+}
+
+.wrongemail{
+    display: none;
+}
+
+.ing{
+    margin-top: 8%;
+    font-size: 16px;
+}
+
+.ing a{
+    font-weight: bold;
+}
+
+.new-acc-message {
+	color : green;
+}
+

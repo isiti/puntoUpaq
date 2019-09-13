@@ -1,0 +1,24 @@
+// INFO: ESTILOS DE LA PÁGINA DE pages/web-pedidos.php
+
+// importo estilos globales.
+@import '../styles-global.scss';
+
+.pedidos{
+    animation-name: bounceInRight;
+    animation-duration: 1.75s;
+    text-align: center;
+
+    thead{
+        background: $color-principal;
+    }
+    tbody{
+        background: rgba(255, 255, 255, 0.8);
+        color: $color-oscuro-2;
+        tr{
+            &:hover{
+                background: $color-secundario-3;
+                color: $color-oscuro-3;
+            }
+        }
+    }
+}

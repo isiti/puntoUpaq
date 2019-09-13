@@ -1,0 +1,85 @@
+    server {
+    server_name upaq.com.ar www.upaq.com.ar;
+
+    root /var/www/upaq;
+
+    access_log /var/log/nginx/upaq-access.log;
+    error_log /var/log/nginx/upaq-error.log;
+
+    location ~ \.php$ {
+#	try_files $uri = 404;
+        fastcgi_pass unix:/tmp/php-fpm.sock;
+#	fastcgi_cache one;
+#	fastcgi_cache_min_uses 3;
+#	fastcgi_cache_valid 200 301 302 304 10m;
+#	fastcgi_cache_key "$request_method|$host|$request_uri";
+#	fastcgi_hide_header "Set-Cookie";
+#	fastcgi_ignore_headers "Cache-Control" "Expires";
+        fastcgi_index index.php;
+        include /etc/nginx/fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+	fastcgi_param	PHP_VALUE	"max_execution_time = 300";
+#	fastcgi_ignore_client_abort off;
+    }
+    gzip_static on;
+    
+
+    location ~* ^.+.(jpg|jpeg|gif|css|png|js|ico|swf|flw|ttf|woff2)$ {
+    access_log off;
+    expires max;
+    break;
+    }
+    
+    location ~/\.ht {
+
+    location ~ ^/cliente/home$ { rewrite ^ /index.php?go=home; }
+    location ~ ^/cliente/perfil$ { rewrite ^ /index.php?go=perfil; }
+    location ~ ^/cliente/pedidos$ { rewrite ^ /index.php?go=pedidos; }
+    location ~ ^/cliente/end$ { rewrite ^ /index.php?go=end; }
+    location ~ ^/cliente$ { rewrite ^ /index.php?logout=true; }
+
+    location ~ ^/cadete/home$ { rewrite ^ /index.php?go=home; }
+    location ~ ^/cadete/perfil$ { rewrite ^ /index.php?go=perfil; }
+    location ~ ^/cadete/pedidos$ { rewrite ^ /index.php?go=pedidos; }
+    location ~ ^/cadete/end$ { rewrite ^ /index.php?go=end; }
+    location ~ ^/cadete/info$ { rewrite ^ /index.php?go=info; }
+    location ~ ^/cadete$ { rewrite ^ /index.php?logout=true; }
+
+    location ~ ^/cms/home$ { rewrite ^ /cms/index.php?go=home; }
+    location ~ ^/cms/logout$ { rewrite ^ /cms/index.php?logout=true; }
+
+    }
+    
+    include /etc/nginx/templates/default_j;
+#    include /etc/nginx/templates/php;
+    include /etc/nginx/templates/phpmyadmin;
+
+
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/www.upaq.com.ar/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/www.upaq.com.ar/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+
+}
+    server {
+    if ($host = upaq.com.ar) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+    if ($host = www.upaq.com.ar) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+    listen 80;
+    server_name upaq.com.ar www.upaq.com.ar;
+    return 404; # managed by Certbot
+
+
+
+
+}

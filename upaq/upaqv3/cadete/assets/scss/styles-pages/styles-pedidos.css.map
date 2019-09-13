@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACoBA,OAAO,CAAP,+EAAO;ADfP,AAAA,QAAQ,CAAA;EACJ,UAAU,EAAE,MAAM;CAarB;;AAdD,AAGI,QAHI,CAGJ,KAAK,CAAA;EACD,UAAU,ECJG,OAAO;CDKvB;;AALL,AAQY,QARJ,CAMJ,KAAK,CACD,EAAE,AACG,MAAM,CAAA;EACH,UAAU,ECPL,OAAO;EDQZ,KAAK,ECXJ,OAAO;CDYX",
+    "sources": [
+        "styles-pedidos.scss",
+        "../styles-global.scss"
+    ],
+    "names": [],
+    "file": "styles-pedidos.css"
+}

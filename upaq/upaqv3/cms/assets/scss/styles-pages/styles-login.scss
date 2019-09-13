@@ -1,0 +1,39 @@
+// INFO: ESTILOS DE LA PÁGINA DE pages/web-login.php
+
+// importo estilos globales.
+@import '../styles-global.scss';
+
+// login
+#login{
+    .login-box{
+        width: 100%;
+        border: 1px solid $color-principal;
+        padding: 2em;
+        margin-top: 3em;
+        border-radius: 0.5em;
+        background: $color-oscuro-2;
+        color: #fff;
+        
+        .title-login{
+            margin-bottom: 2em;
+            img{
+                width: 20%;
+                float: right;
+            }
+        }
+
+        .btn-login{
+            text-align: center;            
+            button{
+                @include button($color-principal, #fff);
+            }
+        }
+
+        .subtitle-login{
+            img{
+                width: 75%;
+                float: right;
+            }
+        }
+    }
+}

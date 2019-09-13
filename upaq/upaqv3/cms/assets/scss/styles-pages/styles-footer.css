@@ -1,0 +1,36 @@
+.sin_iniciar {
+  color: #fff;
+  background: #c93636;
+}
+
+.aceptado {
+  color: #fff;
+  background: #7ad331;
+}
+
+.buscando {
+  color: #fff;
+  background: #3fc0e0;
+}
+
+.entregando {
+  color: #fff;
+  background: #e4d728;
+}
+
+.completado {
+  color: #fff;
+  background: #9538c0;
+}
+
+#footer-bottom {
+  background: #181528;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+#footer-bottom span {
+  color: #fff;
+}
+/*# sourceMappingURL=styles-footer.css.map */

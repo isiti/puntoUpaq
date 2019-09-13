@@ -1,0 +1,158 @@
+@font-face{font-family:'Flama';font-style:normal;font-weight:400;src:local(Flama),url('../fonts/Flama Regular.woff') format("woff")}
+@font-face{font-family:'Flama Italic';font-style:normal;font-weight:400;src:local('Flama Italic'),url('../fonts/Flama Italic.woff') format("woff")}
+@font-face{font-family:'Flama Bold Italic';font-style:normal;font-weight:400;src:local('Flama Bold Italic'),url('../fonts/Flama Bold Italic.woff') format("woff")}
+.flexnav{-webkit-transition:none;-moz-transition:none;-ms-transition:none;transition:none;-webkit-transform-style:preserve-3d;overflow:hidden;margin:0 auto;width:100%;max-height:0}
+.flexnav.opacity{opacity:0}
+.flexnav.flexnav-show{max-height:2000px;opacity:1;-webkit-transition:all .5s ease-in-out;-moz-transition:all .5s ease-in-out;-ms-transition:all .5s ease-in-out;transition:all .5s ease-in-out}
+.flexnav.one-page{position:fixed;top:50px;right:5%;max-width:200px}
+.flexnav li{font-size:100%;position:relative;overflow:hidden}
+.flexnav li a{position:relative;display:block;padding:.96em;z-index:2;overflow:hidden;color:#222;background:#a6a6a2;border-bottom:1px solid rgba(0,0,0,0.15)}
+.flexnav li ul{width:100%}
+.flexnav li ul li{font-size:100%;position:relative;overflow:hidden}
+.flexnav li ul.flexnav-show li{overflow:visible}
+.flexnav li ul li a{display:block;background:#b2b2af}
+.flexnav ul li ul li a{background:#bfbfbc}
+.flexnav ul li ul li ul li a{background:#cbcbc9}
+.flexnav .touch-button{position:absolute;z-index:999;top:0;right:0;width:50px;height:50px;display:inline-block;background:#acaca1;background:rgba(0,0,0,0.075);text-align:center}
+.flexnav .touch-button:hover{cursor:pointer}
+.flexnav .touch-button .navicon{position:relative;top:1.4em;font-size:10px;color:#666}
+.menu-button2{position:relative;display:block;padding:1em;background:#a6a6a2;color:#222;cursor:pointer;border-bottom:1px solid rgba(0,0,0,0.2)}
+.menu-button2.one-page{position:fixed;top:0;right:5%;padding-right:45px}
+.menu-button2 .touch-button{background:transparent;position:absolute;z-index:999;top:0;right:0;width:50px;height:50px;display:inline-block;text-align:center}
+.menu-button2 .touch-button .navicon{font-size:16px;position:relative;top:1em;color:#666}
+@media all and (min-width: 800px) {
+body.one-page{padding-top:70px}
+.flexnav{overflow:visible}
+.flexnav.opacity{opacity:1}
+.flexnav.one-page{top:0;right:auto;max-width:1080px}
+.flexnav li{position:relative;list-style:none;float:left;display:block;background-color:#a6a6a2;overflow:visible;width:20%}
+.flexnav li a{border-left:1px solid #acaca1;border-bottom:none}
+.flexnav li > ul{position:absolute;top:auto;left:0}
+.flexnav li > ul li{width:100%}
+.flexnav li ul li > ul{margin-left:100%;top:0}
+.flexnav li ul li a{border-bottom:none}
+.flexnav li ul.open{display:block;opacity:1;visibility:visible;z-index:1}
+.flexnav li ul.open li{overflow:visible;max-height:100px}
+.flexnav li ul.open ul.open{margin-left:100%;top:0}
+.menu-button2{display:none}
+}
+.oldie body.one-page{padding-top:70px}
+.oldie .flexnav{overflow:visible}
+.oldie .flexnav.one-page{top:0;right:auto;max-width:1080px}
+.oldie .flexnav li{position:relative;list-style:none;float:left;display:block;background-color:#a6a6a2;width:20%;min-height:50px;overflow:visible}
+.oldie .flexnav li:hover > ul{display:block;width:100%;overflow:visible}
+.oldie .flexnav li:hover > ul li{width:100%;float:none}
+.oldie .flexnav li a{border-left:1px solid #acaca1;border-bottom:none;overflow:visible}
+.oldie .flexnav li > ul{background:#acaca1;position:absolute;top:auto;left:0;display:none;z-index:1;overflow:visible}
+.oldie .flexnav li ul li ul{top:0}
+.oldie .flexnav li ul li a{border-bottom:none}
+.oldie .flexnav li ul.open{display:block;width:100%;overflow:visible}
+.oldie .flexnav li ul.open li{width:100%}
+.oldie .flexnav li ul.open ul.open{margin-left:100%;top:0;display:block;width:100%;overflow:visible}
+.oldie .flexnav ul li:hover ul{margin-left:100%;top:0}
+.oldie .menu-button2{display:none}
+.oldie.ie7 .flexnav li{width:19.9%}
+*{outline:unset!important}
+body{font-family:'Open Sans';font-size:10px;font-weight:300}
+.header .logo img{padding:20px}
+ul.main-nav{display:block;padding:0;list-style:none}
+ul.main-nav li{display:inline-block;margin:0 10px;padding:28px 0 20px;font-size:12px;font-family:'Open Sans',sans-serif;position:relative}
+ul.main-nav li a{text-transform:uppercase;display:block;color:#8c8787;text-decoration:none;font-weight:700}
+ul.main-nav li.active a{color:#3169ae}
+ul.main-nav li.active a:after{content:'';border-top:9px solid #3169ae;position:absolute;top:0;left:0;width:100%}
+section.hero{background-position:center center;background-repeat:no-repeat;background-color:#3169ae;padding-top:350px;padding-bottom:60px}
+section.hero form{overflow:hidden}
+section.hero form .form-group{margin:0}
+section.hero form input{display:block;max-width:100%}
+section.hero form label{display:block;width:100%;font-family:'Open Sans',sans-serif;color:#FFF;margin-top:12px;font-weight:700}
+section.hero form label.display-inline{display:inline-block;width:50%}
+section.hero form label.left{text-align:left}
+section.hero form label.right{text-align:right;padding-right:10px;width:calc(50% - 10px)}
+.button-red.button-hero{background-color:#eb454b;padding:8px 28px;font-size:13px;font-weight:700;border:0;font-family:'Open Sans',sans-serif;margin:30px auto 0;display:block}
+.button-red{background-color:#eb454b;padding:8px 28px;font-size:13px;font-weight:700;border:0;font-family:'Open Sans',sans-serif}
+.button-red:hover{background-color:#ea363d!important}
+.ui-selectmenu-button2.ui-button{height:34px;line-height:24px}
+input{height:34px;line-height:34x;padding:10px 5px}
+section h2{font-family:'Flama Bold Italic';letter-spacing:2px;color:#3169ae;margin-bottom:30px;text-transform:uppercase}
+section h3{font-family:'Flama',sans-serif;letter-spacing:0;color:#3169ae;margin-bottom:15px;text-transform:uppercase;font-size:20px}
+section{padding:80px 0}
+.ui-selectmenu-icon.ui-icon{margin-top:3px!important}
+.ui-selectmenu-button2.ui-button{padding-left:30px!important}
+.after-car,.after-map,.form-group{position:relative}
+i.absolute{position:absolute;top:8px;left:25px;z-index:99;color:#575353}
+.after-map i{left:28px}
+.after-user,.after-phone{padding-left:20px}
+
+.ui-selectmenu-button.ui-button{ padding-left: 28px; }
+
+section.about-upaq{background-position:12% center;background-repeat:no-repeat;padding:0;background-size:auto 100%}
+section img{display:block;max-width:100%}
+.top-footer{background-image:url(../img/footer.png);background-color:#3169ae;background-repeat:no-repeat;background-position:center;background-size:100%}
+.bottom-footer{background-color:#3169ae}
+section.video-hero{padding:0}
+p b{font-weight:700}
+.about-upaq .upaq-content{margin-bottom:40px}
+.our-services.blue{background-color:#3169ae;color:#FFF}
+.our-services img{display:block;margin:0 auto 40px}
+.table .thead-dark th{color:#fff;background-color:#3169ae;border-color:#3169ae}
+.table td,.table th{padding:.75rem;vertical-align:top;border-top:1px solid #3169ae}
+table{border-color:#3169ae;border-width:1px;border-style:solid;width:100%}
+p{font-size:15px}
+.our-services.blue h3{color:#fff!important}
+.our-services.blue tbody{background-color:#FFF}
+.our-services.blue .table{border:1px solid #FFF}
+.box .image{margin-bottom:20px}
+footer{color:#FFF}
+footer .top-footer{padding:80px 0;background-size:101% 101%;padding:60px 230px 59px}
+footer h2{font-family:'Flama Bold Italic';letter-spacing:2px;color:#fff;margin-bottom:30px;text-transform:uppercase;margin-bottom:120px}
+footer ul{list-style:none;padding:0;margin:0}
+footer .top-footer ul li a{display:inline-block;padding:14px;border:1px solid #FFF;border-radius:50%;height:50px;width:50px;font-size:20px;color:#FFF}
+footer .top-footer ul li a:hover{color:#FFF}
+footer h3{text-transform:uppercase;font-size:16px;font-weight:700}
+.bottom-footer{padding:20px 0}
+.bottom-footer ul{display:block;margin-top:15px}
+.bottom-footer ul li{display:inline-block;margin-left:10px}
+.bottom-footer ul li a{color:#FFF;text-transform:uppercase;padding:22px 3px}
+.bottom-footer ul li a:hover{color:#FFF}
+.bottom-footer .nav-wrapper{text-align:right}
+footer img{max-width:100px}
+.touch-button{display:none!important}
+.flexnav-show{padding-bottom:33px;padding-left:0}
+.flexnav li a{position:relative;display:block;padding:.96em;z-index:2;overflow:hidden;color:#3169ae;background:#FFF;text-transform:uppercase;border-bottom:1px solid rgba(0,0,0,0.15)}
+@media all and ( max-width: 1201px ) and ( min-width: 1023px ) {
+footer .top-footer{background-size:1366px 101%}
+section.about-upaq{background-size:300px auto;background-position:2% bottom}
+section.hero form label.right{text-align:right;padding-right:0}
+}
+@media all and ( max-width: 1200px ) {
+ul.main-nav li{display:inline-block;margin:0 6px;padding:28px 0 0;font-size:12px;font-family:'Open Sans',sans-serif;position:relative}
+section.about-upaq{background-position:12% bottom;background-repeat:no-repeat;padding:0;background-size:auto 80%}
+}
+@media all and ( max-width: 1200px ) and ( min-width: 768px ) {
+footer .top-footer{background-size:1366px 101%;padding:60px 0 59px}
+.bottom-footer ul li a{font-size:11px}
+.bottom-footer ul li{margin-left:5px}
+}
+@media all and ( max-width: 768px ) {
+section.about-upaq{padding-bottom:300px!important;background-size:300px auto!important;background-position:bottom center!important}
+section h3{text-align:center!important}
+section h2{text-align:center!important}
+section img{display:block;margin:0 auto}
+footer .top-footer{padding:60px 0 59px;background-size:1920px 101%;padding:60px 0 59px;text-align:center}
+footer .top-footer ul{margin-top:15px;margin-bottom:20px}
+footer .bottom-footer{text-align:center}
+.bottom-footer ul{text-align:center}
+.bars-menu{font-size:22px;margin-top:26px;display:block}
+section{padding:30px 0}
+}
+@media all and ( max-width: 400px ) {
+i.absolute{display:none}
+.ui-selectmenu-button2.ui-button{padding-left:10px!important}
+.ui-selectmenu-button.ui-button{ padding-left: 10px; }
+.after-user,.after-phone{padding-left:0}
+}
+.btn-send {text-align: center;position: relative;bottom: 4em;font-size: 4em;border: 2px solid #fff;border-radius: 2em 0.5em 2em 0.5em;}
+.btn-send h2 {margin-top: 1em;color: #fff;}
+.btn-send:hover {cursor: pointer;opacity: 0.8;}
+.link-btn-send{text-decoration: none;}
+.link-btn-send:hover{text-decoration: none;}

@@ -1,0 +1,30 @@
+.table_scroll {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.table_scroll tbody {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  height: 5em;
+}
+
+.table_scroll thead {
+  width: 100%;
+  color: #fff;
+  background: #ff5840;
+}
+
+.table_scroll thead tr {
+  display: block;
+  width: 100%;
+}
+
+.table_scroll thead tr th {
+  text-align: left;
+  font-weight: bold;
+  border-bottom: none !important;
+  border-top: none !important;
+}
+/*# sourceMappingURL=styles-TableScroll.css.map */

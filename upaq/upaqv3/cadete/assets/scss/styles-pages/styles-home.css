@@ -1,0 +1,43 @@
+@import url(c:\wamp64\www\clientes\upaq2\upaqv3\cadete\assets\scss\plugins\animate.css);
+#home {
+  text-align: center;
+  width: 100%;
+}
+
+#home .logo {
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+#home .logo img {
+  width: 25%;
+}
+
+#home .title {
+  text-transform: uppercase;
+  font-size: 80px;
+  letter-spacing: 0.25em;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#home .tabla_pedidos thead {
+  background: #253d7a;
+}
+
+#home .tabla_pedidos tbody {
+  background: rgba(255, 255, 255, 0.8);
+  color: #27293d;
+}
+
+#home .tabla_pedidos tbody tr:hover {
+  cursor: pointer;
+  background: #ffed00;
+  color: #27293d;
+}
+
+.text-muted {
+  color: #ff5840 !important;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=styles-home.css.map */

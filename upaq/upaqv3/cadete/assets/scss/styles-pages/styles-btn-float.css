@@ -1,0 +1,30 @@
+@import url(c:\wamp64\www\clientes\upaq2\upaqv3\cadete\assets\scss\plugins\animate.css);
+#btn-float {
+  position: relative;
+  z-index: 500;
+  top: 31.9em;
+  overflow: hidden;
+}
+
+#btn-float .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+#btn-float .bfloat {
+  width: 3em;
+  height: 3em;
+}
+/*# sourceMappingURL=styles-btn-float.css.map */

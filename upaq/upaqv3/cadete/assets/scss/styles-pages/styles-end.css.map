@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACoBA,OAAO,CAAP,+EAAO;ADfP,AAAA,IAAI,CAAA;EACA,OAAO,EAAE,GAAG;EACZ,UAAU,EAAE,MAAM;CAUrB;;AAZD,AAGI,IAHA,CAGA,UAAU,CAAA;EACN,SAAS,EAAE,MAAM;CACpB;;AALL,AAMI,IANA,CAMA,KAAK,CAAA;EACD,KAAK,ECLQ,OAAO;CDMvB;;AARL,AASI,IATA,CASA,IAAI,CAAA;EACA,UAAU,EAAE,MAAM;CACrB",
+    "sources": [
+        "styles-end.scss",
+        "../styles-global.scss"
+    ],
+    "names": [],
+    "file": "styles-end.css"
+}

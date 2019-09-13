@@ -1,0 +1,20 @@
+// INFO: ESTILOS DE LA PÁGINA DE pages/web-end.php
+
+// importo estilos globales.
+@import '../styles-global.scss';
+
+.end{   
+    text-align: center;
+    padding: 1em;
+    .title-end{
+        font-size: 1.25em;
+    }
+    animation-name: bounceInUp;
+    animation-duration: 1.75s;
+    .aqui{
+        color: $color-principal;           
+    }
+    .url{
+        text-align: center;
+    }
+}

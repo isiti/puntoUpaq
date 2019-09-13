@@ -1,0 +1,39 @@
+@import url(c:\wamp64\www\clientes\upaq2\upaqv3\cadete\assets\scss\plugins\animate.css);
+#nav-top nav {
+  z-index: 100;
+  background-color: #ff5840;
+  border-bottom: 1px solid #253d7a;
+}
+
+#nav-top nav .dropdown-menu {
+  left: -92px;
+  top: 125%;
+}
+
+#nav-top nav .dropdown-menu a {
+  color: #1e1e2f;
+}
+
+#nav-top nav a {
+  color: #fff;
+}
+
+#nav-top nav a:hover {
+  color: #1d8cf8;
+  cursor: pointer;
+}
+
+#nav-top nav img {
+  width: 50%;
+  text-align: left;
+}
+
+#nav-top nav .icon-top {
+  text-align: right;
+}
+
+#nav-top nav .icon-top .navbar-toggler-icon {
+  text-shadow: none !important;
+  color: #fff !important;
+}
+/*# sourceMappingURL=styles-nav-top.css.map */

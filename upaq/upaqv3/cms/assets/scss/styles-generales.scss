@@ -1,0 +1,120 @@
+@import 'styles-global.scss';
+
+// style(general)
+*{
+    margin: 0em 0em;
+    padding: 0em 0em;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $color-claro-1;    
+    overflow-x: hidden;        
+    // height: $height-screen;
+}
+
+.pages{
+  color: $color-oscuro-2;
+  padding: 2em;
+  h1{
+    text-align: center;
+    margin-bottom: 1em;
+  }
+}
+
+table{
+  text-align: center;
+  thead{
+    th{
+      background: $color-principal;
+      color: #fff;
+    }
+  }
+  tbody{
+    tr{
+      td{
+        text-align: center;
+      }
+    }
+  }
+}
+
+.data-table,
+.data-table-dow{
+  &:hover{
+    background: $color-secundario-2;
+    color: #fff;
+    cursor: pointer;
+
+    .edit_dow{
+      color: $color-oscuro-2;
+    }
+    .delete_dow{
+      color: $color-oscuro-2;
+    }
+  }
+}
+
+
+#sec-inicio{
+  .flex{    
+    @include flex(space-between, row, center, nowrap);
+  }
+}
+
+#sec-pedidos-dow{
+  font-size: 0.9em;
+
+  .edit_dow{
+    background: #fff;
+    &:hover{
+      background: $color-secundario-edit;    
+      color: #fff;
+      cursor:pointer;
+    }
+  }
+  .delete_dow{
+    background: #fff;
+    &:hover{
+      background: $color-secundario-delete;    
+      color: #fff;
+      cursor:pointer;
+    }
+  }
+}
+
+
+.sin_iniciar{
+  color: #fff;
+  background: $color-secundario-s;  
+}
+
+.aceptado{
+  color: #fff;
+  background: $color-secundario-a;  
+}
+
+.buscando{
+  color: #fff;
+  background: $color-secundario-b;  
+}
+
+.entregando{
+  color: #fff;
+  background: $color-secundario-e;  
+}
+
+.completado{
+  color: #fff;
+  background: $color-secundario-c;  
+}
+
+.validado-y{
+  background: $color-validado-ok;
+  color: $color-oscuro-2;
+}
+
+.validado-n{
+  background: $color-validado-no;
+  color: $color-oscuro-2;
+}

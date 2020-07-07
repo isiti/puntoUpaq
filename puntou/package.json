@@ -4,7 +4,7 @@
   "description": "",
   "main": "OneSignalSDKUpdaterWorker.js",
   "dependencies": {
-    "npm": "^6.9.0"
+    "npm": "^6.14.6"
   },
   "devDependencies": {
     "gulp": "^4.0.1",
